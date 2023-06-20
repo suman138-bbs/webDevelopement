@@ -1,0 +1,10 @@
+p{
+    color:aqua;
+    border:5px solid rgba(245,143,222,0.1);
+}
+
+
+li{
+    display: inline-block;
+    gap:105px
+}

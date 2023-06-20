@@ -1,0 +1,22 @@
+.boxmodel{
+    border:5px solid rebeccapurple ;
+    display: inline-block;
+    padding:5px 20px 5px 20px; 
+    margin: 0px 10px 0px 10px;
+    width:20px;
+    height:30px
+
+}
+
+p{
+    font-size: 20px;
+}
+
+span{
+    /* it is related to above means 5 times 20px */
+    font-size: 5em; 
+    /* simler to the */
+    /* font-size: 100px; */
+    /* font-size: 2rem; */
+    /* rem is related to the font size of root element */
+}
