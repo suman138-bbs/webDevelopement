@@ -1,0 +1,15 @@
+body{
+    font:sans-serif;
+    background: linear-gradient(to right,rgb(199, 17, 196),rgb(199, 199, 81));
+    text-align: center;
+    text-transform: uppercase;
+    top: 15%;
+    letter-spacing: .5em;
+    font-weight: 600;
+    color: rgba(0,0,0,0.5);
+}
+
+h3{
+    font:200 0.1em;
+
+}

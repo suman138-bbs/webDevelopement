@@ -86,3 +86,9 @@ now in paragraph pink color apply
 ```
 
 # Critical Render Path
+
+# DOM
+
+**Whenever we request html and after geting html browser create something special it create a DOM. it allows us to change html and CSS**
+
+**Window has a properties document that specify what you get to dispaly**
