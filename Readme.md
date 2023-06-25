@@ -92,3 +92,13 @@ now in paragraph pink color apply
 **Whenever we request html and after geting html browser create something special it create a DOM. it allows us to change html and CSS**
 
 **Window has a properties document that specify what you get to dispaly**
+
+# JavaScript Behaviour
+
+**JavaScript is Single Threaded langauage that can be non blocking it has single call stack and it does one thing at a time it order to not-block single threaded it can be Asynchonouus with call back function and call back function gets runs at the background through the callBack Queue and event loop to bring it back to the call Stack**
+
+# React
+
+## Virtual Dom
+
+**virtual Dom is just s Java Script Object this represent jsut current state of Website and we give this object to the react and react do some operation and refelect to the page in most opetimam way**
