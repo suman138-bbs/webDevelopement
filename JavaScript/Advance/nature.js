@@ -54,6 +54,11 @@ function pritnMyname(name) {
 // MultiplyBy(10,MultiplyByTwo)
 
 
- MultiplyBy = (num1)=>(num2)=>console.log(num1*num2)
+ const MultiplyBy = (num1)=>(num2)=>console.log(num1*num2) 
 
 MultiplyBy(2)(3)
+
+
+
+// const 
+

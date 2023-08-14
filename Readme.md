@@ -97,8 +97,66 @@ now in paragraph pink color apply
 
 **JavaScript is Single Threaded langauage that can be non blocking it has single call stack and it does one thing at a time it order to not-block single threaded it can be Asynchonouus with call back function and call back function gets runs at the background through the callBack Queue and event loop to bring it back to the call Stack**
 
+**JavaScript is single threaded(one thing at a) language because it has a one call stack**
+
+# Web API
+
+**web api like fetch,setTimeout,setInterval provided us by the browser inoreder to optimized the performance because it is asynchornus in nature**
+
+```
+window onject this is not provided by a  javascript it provide by the browser
+```
+
+**Whenever JavaScript run threre two phase creation phase and execution phase in execution phase memory block are created and also hoisting happen**
+
+**NOTE: Each Execution context have own Environment**
+
+**In execution context two phase gets happen CREATION PHASE and EXECUTION PHASE**
+
+**Hoisting means it allocate memory at during the Creation Phase**
+
+**Using var keyword memory created during the creation phase at it unsigned to undefine**
+
+## Function Expression Vs Function Declaration
+
+**The Diff betn these two are function expression are not Hoisted and function Declaration are Hoisted**
+
+## Block Scope and Function Scope
+
+**Declare variable using var keyword it means function scope but using let and const keyword they have block scope**
+
+```
+var one = 1; //first
+var one = 2; //Second
+
+// during the creation time second var will ignore because we already assign one = undefine but when execution time it assign 2
+```
+
+# call bind apply
+
+**whenever we create a function a funvtion that have a property called call and also if we want use methods of one obeject to another object we can use call as well as we can pass parameter but in apply pass parameter in the form of array and using bind we have to call later on**
+
+# NULL and undefined
+
+**Undefine:means absence of defination and NULL is an absence of value**
+
+# true.toString()
+
+**true is premtive datatype but why toString() for premtive because javaScript created a wrapper Bolean(true).toString() that's why we can acess the toString method**
+
+#Function:
+**Function are object in javaScript the it has some properties(name) and method(call(),bind(),apply())**
+
+### function are first class citizen in JS:
+
+**Because we can assign function to the Variable and we can pass function as an Arguments and also function can return the another function so it's called as first class citizen in JS**
+
+# Closure
+
+**JavaScript engine keeps the variable if some variable reference it then it keeps inside a closure or it's child function**
+
 # React
 
 ## Virtual Dom
 
-**virtual Dom is just s Java Script Object this represent jsut current state of Website and we give this object to the react and react do some operation and refelect to the page in most opetimam way**
+**virtual Dom is just s Java Script Object this represent just current state of Website and we give this object to the react and react do some operation and refelect to the page in most optimum way**
